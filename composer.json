@@ -2,16 +2,14 @@
     "name": "time-w2o/w2o-page-builder",
     "description": ":package_description",
     "keywords": [
-        ":vendor_name",
-        "laravel",
-        ":package_slug"
+        "laravel"
     ],
     "homepage": "https://github.com/Gustah-araujo/w2o-page-builder",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Gustavo Araujo",
+            "email": "gustavoc.araujo2001@gmail.com",
             "role": "Developer"
         }
     ],
@@ -23,25 +21,20 @@
     "require-dev": {
         "laravel/pint": "^1.14",
         "nunomaduro/collision": "^8.8",
-        "larastan/larastan": "^3.0",
         "orchestra/testbench": "^10.0.0||^9.0.0",
         "pestphp/pest": "^4.0",
         "pestphp/pest-plugin-arch": "^4.0",
-        "pestphp/pest-plugin-laravel": "^4.0",
-        "phpstan/extension-installer": "^1.4",
-        "phpstan/phpstan-deprecation-rules": "^2.0",
-        "phpstan/phpstan-phpunit": "^2.0",
-        "spatie/laravel-ray": "^1.35"
+        "pestphp/pest-plugin-laravel": "^4.0"
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "TimeW2o\\PageBuilder\\": "src/",
+            "TimeW2o\\PageBuilder\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/",
+            "TimeW2o\\PageBuilder\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
@@ -63,10 +56,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "TimeW2o\\PageBuilder\\PageBuilderServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "PageBuilder": "TimeW2o\\PageBuilder\\Facades\\PageBuilder"
             }
         }
     },
