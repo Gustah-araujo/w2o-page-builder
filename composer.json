@@ -1,12 +1,12 @@
 {
-    "name": ":vendor_slug/:package_slug",
+    "name": "time-w2o/w2o-page-builder",
     "description": ":package_description",
     "keywords": [
         ":vendor_name",
         "laravel",
         ":package_slug"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/Gustah-araujo/w2o-page-builder",
     "license": "MIT",
     "authors": [
         {
